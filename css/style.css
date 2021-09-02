@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Oswald:wght@400&display=swap');
+
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+*{
+
+font-family: 'Catamaran', sans-serif;
+  padding: 0;
+  margin: 0;
+
+
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+h2{
+  text-decoration: underline;
+  text-decoration-color: orange;
+  margin-top: 2rem;
+}
+
+h2{
+  text-align: center;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.front button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+   padding: 5.5px;
+   border-radius: 8%;
+  background-color: orange;
+}
+.front{
+
+    font-size: 2.4rem;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+ height: 670px;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+
+margin-left: auto;
+margin-right: auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/hero/hero1.jpg");
+
+  background-size:100% 100%;
+}
+.front p{
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: bolder;
+margin-top: -7.5rem;
+}
+
+.front button:hover{
+    background-color: #fcd132;
+}
+
+.contactForm{
+  margin-top: 2.75rem;
+font-family: 'Oswald', sans-serif;
+font-size: 1.25rem;
+color: #d1d1d1;
+
+width: 100%;
+ height: 100%;
+text-align: center;
+
+margin-left: auto;
+margin-right: auto;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../images/hero/hero1.jpg");
+
+background-size:100% 100%;
+}
+
+.contactForm input {
+
+  border: none;
+  margin-top: 2.25rem;
+  width: 30%;
+  background-color: transparent;
+  font-size: 1.25rem;
+  color: #d1d1d1;
+  border-bottom: 2px solid gray;
+}
+.contactForm input:focus{
+  color: white;
+  background-color: transparent;
+  outline: none;
+    border-bottom: 2px solid white;
+}
+.contactForm textarea{
+  margin-top: 2rem;
+  border: none;
+    width: 30%;
+  font-size: 1.25rem;
+    color: #d1d1d1;
+  background-color: transparent;
+  border: 2px solid gray;
+    resize: none;
+}
+.contactForm textarea:focus{
+  color: white;
+  outline: none;
+    border: 2px solid white;
+}
+.contactForm a{
+  text-decoration: none;
+  color: orange;
+  font-size: 1.5rem;
+  margin: 2rem 0rem;
+}
+.contactForm a::after{
+  text-decoration: none;
+  color: white;
+}
+.contactForm a:hover{
+  font-weight: bolder;
+}
+.message *{
+  vertical-align: middle;
+}
+.submitForm input{
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 10%;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  border-bottom-style: none;
+   border-radius: 4%;
+  background-color: orange;
+}
+.submitForm input:hover{
+    background-color: #fcd132;
+}
+.error{
+  color: orange;
+  font-weight: bold;
+}
+
+.navbar a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-weight: bolder;
+}
+.navbar a::after{
+  text-decoration: none;
+  color: black;
+}
+.navbar{
+
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: white;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s;
+ z-index: 30;
+
+}
+
+
+.navbarLinks ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.navbar li{
+  list-style: none;
+  margin-left: 0.5rem;
+
+}
+
+.navbarLinks li a{
+
+  align-items: center;
+  text-decoration: none;
+  display:block;
+  color: black;
+
+}
+
+.navbarLinks  a::after{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+.activities{
+  display: flex;
+
+  align-items: baseline;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.activity{
+  margin-top: 2rem;
+ width: 26%;
+ font-weight: bold;
+ font-size: 1.25rem;
+
+}
+.activity img{
+  width: 94%;
+    border-style: solid;
+  border-width: medium;
+  border-color: black;
+}
+
+.reviews{
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+
+
+}
+.reviews p{
+text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.reviews img{
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+  margin-bottom: 2rem;
+  width: 200px;
+  height: 200px;
+
+  border-style: solid;
+  border-width: medium;
+  border-color: orange;
+  border-radius: 50%;
+
+}
+
+
+.fade {
+
+
+
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+.plans{
+  display: flex;
+  align-items: baseline;
+ justify-content: space-between;
+ font-size: 1.25rem;
+margin-bottom: 2rem;
+margin-top: 2rem;
+
+
+
+
+}
+
+.plans h3{
+
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+.plan{
+  width: 28%;
+  height: 80%;
+  padding: 2rem;
+  border-style: double;
+  border-width:medium;
+  list-style-type: none;
+  border-color: black;
+  border-radius: 1%;
+
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+.plan ul {
+  list-style-type: none;
+  /*use padding to move list item from left to right*/
+  padding-left: 1em;
+}
+
+.plan ul li:before {
+  content: "–";
+  color: orange;
+  font-weight: bold;
+  position: absolute;
+  /*change margin to move dash around*/
+  margin-left: -1em;
+}
+
+
+.planMain{
+  font-size: 1.3rem;
+  width: 28%;
+
+
+
+}
+
+.location{
+  display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    color: white;
+    align-items: center;
+}
+.location div{
+  width: 40%;
+
+
+}
+
+.location li a{
+
+  align-items: center;
+  text-decoration: none;
+  display:block;
+  color: white;
+
+}
+
+.location  a::after{
+  color: white;
+  text-decoration: none;
+}
+
+.location li{
+    list-style: none;
+}
+.contact img{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20%;
+  align-items: center;
+
+}
+.contact a{
+    margin-right: 1rem;
+    align-items: baseline;
+
+}
+.contact ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+
+}
+
+.contact li{
+  list-style: none;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+
+
+}
+
+
+
+@media(max-width:900px){
+
+  .plans{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+  }
+  .plan{
+    width: 70%;
+      margin-bottom: 2rem;
+       border-radius: 1%;
+  }
+
+   .contact ul{
+     flex-direction: column;
+     display: inline-block;
+
+
+
+   }
+   .contactForm input{
+     width: 65%;
+   }
+   .contactForm textarea{
+     width: 80%;
+   }
+  .contact ul li img{
+    vertical-align: middle;
+
+  }
+  .submitForm input{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 30%;
+
+    background-color: orange;
+  }
+  .contact img{
+    margin-bottom: 0.75rem;
+  }
+
+   .contact{
+
+
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+   }
+
+}
+
+@media(min-width:900px){
+  .contactForm input{
+    width: 25%;
+  }
+  .contactForm textarea{
+    width: 20%;
+  }
+ .contact ul li img{
+   vertical-align: middle;
+
+ }
+ .contactForm input{
+   width: 40%;
+ }
+ .submitForm input{
+   font-size: 1.25rem;
+   font-weight: bold;
+   width: 10%;
+
+   background-color: orange;
+ }
+
+  .plans{
+      height: 820px;
+  }
+
+
+}
+@media(min-width:1100px){
+
+  .contactForm input{
+    width: 45%;
+  }
+  .contactForm textarea{
+    width: 60%;
+  }
+ .contact ul li img{
+   vertical-align: middle;
+
+ }
+ .submitForm input{
+   font-size: 1.25rem;
+   font-weight: bold;
+   width: 10%;
+
+   background-color: orange;
+ }
+
+.plans{
+    height: 600px;
+}
+ .plan{
+      height: 80%;
+      border-radius: 1%;
+ }
+  .planMain{
+
+     border-radius: 1%;
+  }
+
+
+
+}
+
+/* mobile css*/
+.toggleButton{
+
+  position: absolute;
+  right: 1rem;
+  top: .75rem;
+  height: 1.5rem;
+
+  display:none;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 40px;
+
+  margin-bottom: 0.25rem;
+}
+
+.toggleButton .bar{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;/*not sure what this does, check it*/
+}
+
+
+
+
+@media(max-width:780px){
+
+  .toggleButton{
+    display: flex;
+
+  }
+  .navbarLinks{
+
+    width: 100%;
+    display: none;
+
+
+
+  }
+
+
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+
+
+
+  }
+
+
+  .navbarLinks ul{
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  .navbarLinks li{
+    text-align: center;
+  }
+
+  .navbarLinks li a{
+    padding: .5rem 1rem;
+  }
+  .navbarLinks.active{
+    display: flex;
+  }
+  .front{
+    font-size: 1.75rem;
+
+      height: 540px;
+
+  }
+  .activities{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .activity {
+    width: 75%;
+    margin-bottom: 1.75rem;
+  }
+  .reviews{
+    font-size: 1.75rem;
+  }
+
+}
+@media (max-width:550px) {
+
+.reviews{
+  font-size: 1.25rem;
+}
+.front{
+  height: 500px;
+}
+}
